@@ -3,7 +3,7 @@
 define('SMARTY_SPL_AUTOLOAD', 1);
  
 // require the Smarty class
-require(dirname(__FILE__) . '../../../smarty/Smarty.class.php');
+require(dirname(__FILE__) . '/../../../smarty/Smarty.class.php');
  
 class TinyMVC_Library_Smarty_Wrapper Extends Smarty
 {
